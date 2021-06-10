@@ -1,0 +1,1 @@
+This is my attempt to use the small knowledge I have of HTML, CSS, and JavaScript to recreate the Google Homepage.

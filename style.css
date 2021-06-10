@@ -1,0 +1,34 @@
+html {
+    font-family: "Open Sans", Arial;
+}
+
+header {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    text-align: center;
+}
+a.no-underline {
+    text-decoration: none;
+}
+.covid-vaccine {
+    font-size: 12px;
+    text-align: center;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(242,242,242);
+    font-size: 16px;
+    position: absolute;
+    bottom: 0px;
+    padding: 5px 10% 5px 10%;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+}

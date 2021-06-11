@@ -6,10 +6,17 @@ header {
     font-size: 16px;
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main {
     text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 a.no-underline {
     text-decoration: none;
@@ -24,11 +31,21 @@ footer {
     background-color: rgb(242,242,242);
     font-size: 16px;
     position: absolute;
+    align-items:center;
     bottom: 0px;
-    padding: 5px 10% 5px 10%;
+    justify-content: space-between;
+    width: 100%;
+    height: 3%;
+    /*padding: 15px 5% 15px 5%%;*/
 }
 
 button {
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 30px 15px;
+}
+
+.search-bar {
+    font-size: 24px;
+    margin: 20px 0px 0px 0px;
+    width: 400px;
 }
